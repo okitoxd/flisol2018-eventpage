@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
 	//COUNTDOWN TIMER
 	var newYear = new Date(); 
     newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
-    $('#countdown').countdown({until: new Date(2015, 12-1, 18)}); // enter event day 
+    $('#countdown').countdown({until: new Date(2018, 4-1, 28, 9)}); // enter event day
     
     $('#removeCountdown').toggle(
         function() {
@@ -206,7 +206,7 @@ jQuery(document).ready(function($) {
  
 	  owl.owlCarousel({
 		  
-		  autoPlay: false,
+		  autoPlay: true,
 		  itemsCustom : [
 			[0, 1],
 			[450, 1],
@@ -217,7 +217,7 @@ jQuery(document).ready(function($) {
 			[1600, 5]
 		  ],
 		  pagination : false,
-		  navigation : true,
+		  navigation : false,
 		  navigationText : ['<i class="pe-4x pe-7s-angle-left pe-border"></i>','<i class="pe-4x  pe-7s-angle-right pe-border"></i>'],
 	  });
 	
