@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
 		navigationArrows:"none",
 		navigationStyle:"none",
 		
-		touchenabled:"on",
+		touchenabled:"off",
 		onHoverStop:"off",
 		
 		swipe_velocity: 0.7,
