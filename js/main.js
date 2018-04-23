@@ -49,7 +49,7 @@ jQuery(document).ready(function($) {
 		fullWidth:"off",
 		fullScreen:"on",
 
-		spinner:"spinner0",
+		spinner:"off",
 		
 		stopLoop:"off",
 		stopAfterLoops:-1,

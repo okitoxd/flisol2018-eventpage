@@ -106,7 +106,7 @@ a {
 }
 
 .navbar-custom .navbar-nav > li > a:hover {
-    color: #901440;
+    color: #ffffff;
     background: transparent;
 }
 
@@ -117,7 +117,7 @@ a {
 }
 
 .navbar-custom .icon-bar {
-    background: #901440;
+    background: #ffffff;
 }
 
 .sticky-wrapper {
@@ -127,7 +127,7 @@ a {
 }
 
 .sticky-wrapper a {
-    color: #ffffff;
+    color: #e5e5e5;
 }
 
 .is-sticky .navbar-custom {
@@ -154,7 +154,7 @@ a {
     left: 0;
     width: 100%;
     height: 4px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     content: '';
     opacity: 0;
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -310,13 +310,14 @@ a {
 }
 
 .speaker a {
-    color: #1d1d1d;
+    color: #262626;
 }
 .speaker a i{
     font-size: 1em;
 }
 .speaker a:hover {
     text-decoration: none;
+    color: #000000;
 }
 
 #speakers .owl-buttons {
