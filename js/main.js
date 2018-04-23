@@ -133,8 +133,8 @@ jQuery(document).ready(function($) {
     $('#list-speaker li:lt(4)').show();
     
     $('#loadmore').on("click", function () {
-    	$('#list-speaker li:lt(8)').fadeIn();
-    	$('#list-speaker li:lt(8)').show();
+    	$('#list-speaker li:lt(12)').fadeIn();
+    	$('#list-speaker li:lt(12)').show();
     });
     
     //FAQ TOGGLE 
